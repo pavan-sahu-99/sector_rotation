@@ -51,13 +51,13 @@ By integrating these scripts and datasets, the project now supports:
 ------------------------------------------------------------------------
 ### How to Run:
 
-1️⃣ Extract Sector Data
+1. Extract Sector Data
   python get_sectors.py
-2️⃣ Generate Monthly Candles
+2. Generate Monthly Candles
   Automatically runs inside the extraction pipeline or can be called separately:
     python hypothesis.py
 
-3️⃣ View Heatmaps
+3. View Heatmaps
   The script displays:
     Sector Seasonality
     Individual Stock Seasonality
