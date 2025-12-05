@@ -4,7 +4,7 @@
 1. Introduces a complete Sector Rotation & Seasonality Analysis framework into the project.
 2. It includes automated data extraction from Kite APIs, weekly → monthly candle conversion, sector mapping, and a hypothesis engine for identifying high-performing months for each sector and stock.
 ---------------------------------------------------------------
-##$ Folder: data_sectors/
+### Folder: data_sectors/
 
 This folder now contains all sector-related datasets used for analysis:
 
@@ -13,7 +13,6 @@ File	Description:
 2. NSE_instruments.csv	Full list of NSE instruments used for filtering sector constituents.
 3. *_weekly.csv	Auto-generated weekly OHLC datasets for each sector (e.g., it_weekly.csv).
 4. *_monthly.csv	Derived monthly candles created from weekly data (e.g., it_monthly.csv).
-
 These datasets are used for seasonality modeling, sector rotation, and statistical hypothesis testing.
 -------------------------------------------------------------
 ### Script: get_sectors.py
